@@ -2,22 +2,22 @@
 
 Create .env file
 
-   vi .env
+    vi .env
 
-   APP_NAME=App
-   
-   APP_ENV=local
-   APP_DEBUG=true
-
-   DB_CONNECTION=sqlite
-   
-   CACHE_DRIVER=file
-   SESSION_DRIVER=file
-   QUEUE_DRIVER=sync
+    APP_NAME=App
+    
+    APP_ENV=local
+    APP_DEBUG=true
+    
+    DB_CONNECTION=sqlite
+    
+    CACHE_DRIVER=file
+    SESSION_DRIVER=file
+    QUEUE_DRIVER=sync
 
 Install composer
 
-   composer install
+    composer install
   
 Generate App Key
 
@@ -33,6 +33,6 @@ Migrate Database
 
   
 
-
+---
 
 See here for notes/install: http://martythomas.svbtle.com/adding-authentication-to-laravel-51
